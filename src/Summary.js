@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Summary.css';
 
-class Summary extends Componenet{
+
+class Summary extends Component{
     render(){
         return (
             Object.keys(this.state.selected).map(key => 
