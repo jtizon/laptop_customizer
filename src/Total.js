@@ -20,13 +20,17 @@ class Total extends Component{
                     </li>
                     });
 
-            return <div className="feature" key={key}>
-              <div className="feature__name">{key}</div>
-              <ul className="feature__list">
-                { options }
-              </ul>
-            </div>
-          });   
+                    return (
+                        <div className="feature" key={key}>
+                            <div className="feature__name">{key}</div>
+                            <ul className="feature__list">
+                                { options }
+                            </ul>
+                        </div>
+                    )
+          })   
         )
     }
 }
+
+export default Total;
