@@ -14,7 +14,9 @@ class Options extends Component{
                         ({ new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD'})
                             .format(item.cost) })
                 </div>
-            </li>)
+            </li>})
         )
     }
 }
+
+export default Options;
